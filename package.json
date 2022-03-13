@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/tkddl5990/monorepo-example.git",
+  "author": "생이(SangE/남상이) <tkddl5990@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "projects/*"
+  ],
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.24",
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start:crypto": "yarn workspace @projects/crypto start"
+  },
+  "dependencies": {
+    "react-query": "^3.34.16",
+    "react-router-dom": "^6.2.2",
+    "styled-components": "^5.3.3"
+  }
+}
