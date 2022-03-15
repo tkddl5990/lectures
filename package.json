@@ -15,8 +15,7 @@
     "lerna": "^4.0.0"
   },
   "scripts": {
-    "start:crypto": "yarn workspace @projects/crypto start",
-    "start:statement": "yarn workspace @projects/statement start"
+    "start:crypto": "yarn workspace @projects/crypto start"
   },
   "dependencies": {
     "react-query": "^3.34.16",
